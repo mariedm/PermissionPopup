@@ -1,0 +1,338 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "15PermissionPopup14ViewControllerC"
+provides-member:
+- ["15PermissionPopup14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "viewDidAppear"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "DidAskContactsDelegate"
+- !private "PermissionPopup"
+- !private "StringLiteralType"
+- "UIViewController"
+- "ViewController"
+- !private "print"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CNKeyDescriptorP", "init"]
+- !private ["s7CVarArgP", "PermissionPopup"]
+- !private ["s7CVarArgP", "contactsDelegate"]
+- ["s7CVarArgP", "didAskForContacts"]
+- !private ["s7CVarArgP", "forType"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "PermissionPopup"]
+- !private ["s28CustomDebugStringConvertibleP", "contactsDelegate"]
+- ["s28CustomDebugStringConvertibleP", "didAskForContacts"]
+- !private ["s28CustomDebugStringConvertibleP", "forType"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "PermissionPopup"]
+- !private ["s23CustomStringConvertibleP", "contactsDelegate"]
+- ["s23CustomStringConvertibleP", "didAskForContacts"]
+- !private ["s23CustomStringConvertibleP", "forType"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["15PermissionPopup22DidAskContactsDelegateP", "PermissionPopup"]
+- ["15PermissionPopup22DidAskContactsDelegateP", "didAskForContacts"]
+- !private ["15PermissionPopup22DidAskContactsDelegateP", "present"]
+- !private ["15PermissionPopup22DidAskContactsDelegateP", "print"]
+- ["15PermissionPopup22DidAskContactsDelegateP", ""]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "PermissionPopup"]
+- !private ["s9EquatableP", "camera"]
+- !private ["s9EquatableP", "contactsDelegate"]
+- ["s9EquatableP", "didAskForContacts"]
+- !private ["s9EquatableP", "forType"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "PermissionPopup"]
+- !private ["s8HashableP", "camera"]
+- !private ["s8HashableP", "contactsDelegate"]
+- ["s8HashableP", "didAskForContacts"]
+- !private ["s8HashableP", "forType"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "PermissionPopup"]
+- !private ["So8NSCodingP", "contactsDelegate"]
+- ["So8NSCodingP", "didAskForContacts"]
+- !private ["So8NSCodingP", "forType"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "PermissionPopup"]
+- !private ["So26NSExtensionRequestHandlingP", "contactsDelegate"]
+- ["So26NSExtensionRequestHandlingP", "didAskForContacts"]
+- !private ["So26NSExtensionRequestHandlingP", "forType"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "PermissionPopup"]
+- !private ["So8NSObjectC", "contactsDelegate"]
+- ["So8NSObjectC", "didAskForContacts"]
+- !private ["So8NSObjectC", "forType"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "viewDidAppear"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "PermissionPopup"]
+- !private ["So16NSObjectProtocolP", "contactsDelegate"]
+- ["So16NSObjectProtocolP", "didAskForContacts"]
+- !private ["So16NSObjectProtocolP", "forType"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["15PermissionPopupAAC", "contactsDelegate"]
+- !private ["15PermissionPopupAAC", "forType"]
+- !private ["15PermissionPopup0B4TypeO", "camera"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "camera"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "PermissionPopup"]
+- !private ["So21UIAppearanceContainerP", "contactsDelegate"]
+- ["So21UIAppearanceContainerP", "didAskForContacts"]
+- !private ["So21UIAppearanceContainerP", "forType"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "PermissionPopup"]
+- !private ["So18UIContentContainerP", "contactsDelegate"]
+- ["So18UIContentContainerP", "didAskForContacts"]
+- !private ["So18UIContentContainerP", "forType"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIFocusEnvironmentP", "PermissionPopup"]
+- !private ["So18UIFocusEnvironmentP", "contactsDelegate"]
+- ["So18UIFocusEnvironmentP", "didAskForContacts"]
+- !private ["So18UIFocusEnvironmentP", "forType"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "PermissionPopup"]
+- !private ["So30UIPasteConfigurationSupportingP", "contactsDelegate"]
+- ["So30UIPasteConfigurationSupportingP", "didAskForContacts"]
+- !private ["So30UIPasteConfigurationSupportingP", "forType"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "PermissionPopup"]
+- !private ["So11UIResponderC", "contactsDelegate"]
+- ["So11UIResponderC", "didAskForContacts"]
+- !private ["So11UIResponderC", "forType"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "viewDidAppear"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "PermissionPopup"]
+- !private ["So30UIResponderStandardEditActionsP", "contactsDelegate"]
+- ["So30UIResponderStandardEditActionsP", "didAskForContacts"]
+- !private ["So30UIResponderStandardEditActionsP", "forType"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "PermissionPopup"]
+- !private ["So16UIStateRestoringP", "contactsDelegate"]
+- ["So16UIStateRestoringP", "didAskForContacts"]
+- !private ["So16UIStateRestoringP", "forType"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "PermissionPopup"]
+- !private ["So18UITraitEnvironmentP", "contactsDelegate"]
+- ["So18UITraitEnvironmentP", "didAskForContacts"]
+- !private ["So18UITraitEnvironmentP", "forType"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "PermissionPopup"]
+- !private ["So16UIViewControllerC", "contactsDelegate"]
+- ["So16UIViewControllerC", "didAskForContacts"]
+- !private ["So16UIViewControllerC", "forType"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "viewDidAppear"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- ["15PermissionPopup14ViewControllerC", "Bool"]
+- !private ["15PermissionPopup14ViewControllerC", "PermissionPopup"]
+- ["15PermissionPopup14ViewControllerC", "deinit"]
+- ["15PermissionPopup14ViewControllerC", "didAskForContacts"]
+- ["15PermissionPopup14ViewControllerC", "init"]
+- !private ["15PermissionPopup14ViewControllerC", "present"]
+- !private ["15PermissionPopup14ViewControllerC", "print"]
+- ["15PermissionPopup14ViewControllerC", "viewDidAppear"]
+- ["15PermissionPopup14ViewControllerC", "viewDidLoad"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PermissionPopup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contactsDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "didAskForContacts"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "forType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "So15CNKeyDescriptorP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "15PermissionPopup22DidAskContactsDelegateP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "15PermissionPopupAAC"
+- !private "15PermissionPopup0B4TypeO"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- "15PermissionPopup14ViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "719d47b59a50e3450677bab229a4f620"

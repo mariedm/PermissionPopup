@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "5ffa79a74b4487d4df43550b5e8f66dc"
+build_time: [1507737740, 783796000]
+inputs:
+  "/Users/Marie/Desktop/repos/PermissionPopup/PermissionPopup/ViewController.swift": [1507737738, 0]
+  "/Users/Marie/Desktop/repos/PermissionPopup/PermissionPopup/AppDelegate.swift": [1507737738, 0]
