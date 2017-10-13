@@ -13,9 +13,13 @@ class ViewController: UIViewController, DidAskContactsDelegate{
     override func viewDidLoad(){
         super.viewDidLoad()
     }
-
-    override func viewDidAppear(_ animated: Bool){
-        let permissionPopup=PermissionPopup.forType(.contacts, from: self)
+    
+    @IBAction func popupButtonPushed(_ sender: Any){
+        showContactPermissionPopup()
+    }
+    
+    func showContactPermissionPopup(){
+        let permissionPopup=PermissionPopup.ofType(.contacts, from: self)
         permissionPopup.contactsDelegate=self
         present(permissionPopup, animated: true, completion: nil)
     }

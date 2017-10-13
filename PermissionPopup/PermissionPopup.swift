@@ -43,7 +43,7 @@ class PermissionPopup:UIViewController{
     var notifDelegate:DidAskNotificationsDelegate?
     
     /***    INIT    ***/
-    class func forType(_ type:PopupType, from viewController:UIViewController)->PermissionPopup{
+    class func ofType(_ type:PopupType, from viewController:UIViewController)->PermissionPopup{
         let popup=UINib(nibName: "PermissionPopup", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! PermissionPopup
         popup.popupType=type
         return popup
