@@ -1,0 +1,19 @@
+Create a PermissionPopup and implement the appropriate delegate. 
+
+class ViewController: UIViewController, DidAskContactsDelegate{
+
+    func showContactPopup(){
+        let permissionPopup=PermissionPopup.forType(.contacts, from: self)
+        permissionPopup.contactsDelegate=self
+        present(permissionPopup, animated: true, completion: nil)
+    }
+    
+    func didAskForContacts(_ granted: Bool){
+        print("didAskForContacts, granted:", granted)
+        if granted{
+        //do what you want
+        }else{
+		        print("The user did not give access to his/her contacts")
+        }
+    }
+}
