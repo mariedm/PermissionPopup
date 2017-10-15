@@ -32,6 +32,8 @@ Create a PermissionPopup of the desired authorization type and implement the app
         }
     }
 
+<img src="../master/popup_example.png" width="300">
+
 ## Requirements
 Don’t forget to add a usage description in your Info.plist for each type of authorization you need to ask.
 
